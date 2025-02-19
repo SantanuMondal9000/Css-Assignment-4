@@ -104,7 +104,7 @@ h2 {
     width: 300px;
     min-height: 300px;
     z-index: -1;
-    background-image: url("/assets/images/u_150.png");
+    background-image: url("../assets/images/u_150.png");
 }
 
 .dashed-div img {
