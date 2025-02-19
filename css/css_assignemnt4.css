@@ -37,22 +37,7 @@ h2 {
     
 }
 
-/* }
-.menu-side-area{
-    width: 80%;
-    height: 100%;
-    z-index: 10;
-    opacity: 0.6;
-    background-color: black;
-    
-}
-.menu-list-area{
-    width: 20%;
-    height: 100%;
-    background-color: black;
-   
-    
-}*/
+
 .menu-list-area p span{
     display: block;
 }
@@ -119,7 +104,7 @@ h2 {
     width: 300px;
     min-height: 300px;
     z-index: -1;
-    background-image: url("/assets/images/u_150.png");
+    background-image: url("../assets/images/u_150.png");
 }
 
 .dashed-div img {
@@ -208,7 +193,7 @@ h2 {
     position: absolute;
     left: 0;
     bottom: 20%;
-    background-image: url("/assets/images/u_150.png");
+    background-image: url("../assets/images/u_150.png");
 }
 
 
@@ -261,7 +246,7 @@ h2 {
     z-index: 4;
     bottom: -70px;
     left: -70px;
-    background-image: url("/assets/images/u_150.png");
+    background-image: url("../assets/images/u_150.png");
 }
 
 .working-team-dashed-block img {
@@ -392,7 +377,7 @@ h2 {
     z-index: 1;
     right: 0;
     top: 40%;
-    background-image: url("/assets/images/u_150.png");
+    background-image: url("../assets/images/u_150.png");
 }
 
 .branding-text-area {
@@ -504,7 +489,7 @@ form {
     top: 10%;
     left: 50%;
     z-index: 1;
-    background-image: url("/assets/images/rgerg.jpg");
+    background-image: url("../assets/images/rgerg.jpg");
     background-size: cover;
     background-position: center;
 }
