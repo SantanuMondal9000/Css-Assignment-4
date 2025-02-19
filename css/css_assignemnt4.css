@@ -1,0 +1,527 @@
+/* Reset Area */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* End Reset Area */
+
+/* Menu */
+.menu{
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    position: fixed;
+    display: flex;
+    
+}
+
+/* }
+.menu-side-area{
+    width: 80%;
+    height: 100%;
+    z-index: 10;
+    opacity: 0.6;
+    background-color: black;
+    
+}
+.menu-list-area{
+    width: 20%;
+    height: 100%;
+    background-color: black;
+   
+    
+}*/
+.menu-list-area p span{
+    display: block;
+}
+.cross-icon{
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 22%;
+    z-index: 10;
+
+
+}
+/* End menu */
+/* Banner */
+.banner-wrapper {
+    height: 700px;
+    position: relative;
+}
+
+.banner-text-box {
+    max-width: 50%;
+    height: 400px;
+    position: absolute;
+    top: 200px;
+    left: 0;
+
+
+}
+
+.banner-text-box h1 {
+    font-size: 6rem;
+}
+
+.banner-text-box p {
+    width: 70%;
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+
+.learn-more-btn {
+    display: inline-block;
+    padding: 13px 25px;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    margin-top: 15px;
+    border: 1px solid black;
+    font-weight: 300;
+}
+
+.blank-div {
+    position: absolute;
+    top: 85px;
+    right: 0;
+    background-color: #c9e3f4;
+    width: 400px;
+    min-height: 400px;
+}
+
+.dashed-div {
+    position: absolute;
+    left: -50px;
+    bottom: -50px;
+    width: 300px;
+    min-height: 300px;
+    z-index: -1;
+    background-image: url("/assets/images/u_150.png");
+}
+
+.dashed-div img {
+    max-width: 100%;
+    height: 100%;
+
+}
+
+.banner-layer-image {
+    position: absolute;
+    top: 160px;
+    right: 85px;
+    width: 500px;
+    min-height: 600px;
+    z-index: 4;
+}
+
+.banner-layer-image img {
+    width: 100%;
+    height: 100%;
+
+}
+
+/* End Banner */
+
+/* Service Area */
+.service {
+    height: 1000px;
+
+
+    position: relative;
+
+}
+
+.secrive-blank-box {
+    width: 65%;
+    height: 100%;
+    background-color: #c9e3f4;
+    position: absolute;
+    right: 0;
+    z-index: -2;
+}
+
+.service-wrapper {
+    height: 100%;
+    position: relative;
+}
+
+.service-image-wrapper {
+    width: 52%;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.service-image-wrapper img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.service-text-area {
+    width: 52%;
+    height: 500px;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    z-index: 5;
+
+}
+
+.service-item {
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.service-item h3 {
+    font-weight: bold;
+}
+
+.service-dashed-block {
+    width: 40%;
+    height: 250px;
+    position: absolute;
+    left: 0;
+    bottom: 20%;
+    background-image: url("/assets/images/u_150.png");
+}
+
+
+/* End Service */
+/* Working team */
+.working-team {
+    background-color: #c9e3f4;
+    height: 450px;
+
+}
+
+.working-wrapper {
+    position: relative;
+    min-height: 100%;
+}
+
+.working-wrapper h2 {
+    max-width: 60%;
+    font-size: 3.5rem;
+    font-weight: bold;
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 4rem;
+    font-weight: bold;
+
+}
+
+.team-image-wrapper {
+    width: 60%;
+    height: 500px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    z-index: 2;
+
+}
+
+.team-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.working-team-dashed-block {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 4;
+    bottom: -70px;
+    left: -70px;
+    background-image: url("/assets/images/u_150.png");
+}
+
+.working-team-dashed-block img {
+    width: 100%;
+    height: 100%;
+}
+
+/* End Working Team */
+/* Sample Area */
+
+.sample-area {
+    padding: 8rem 0;
+    position: relative;
+}
+
+.blank-div-sample-area {
+    width: 20%;
+    height: 700px;
+    background-color: #c9e3f4;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -2;
+}
+
+.sample-item {
+    width: 50%;
+    display: flex;
+    padding: 30px 0;
+
+
+}
+.text-part p {
+    width: 70%;
+    line-height: 30px;
+    
+}
+.text-part h3 {
+    font-weight: bold;
+  
+}
+
+.icon {
+    width: 65px;
+    height: 55px;
+    border-radius: 50%;
+    background-color:#9dcff8;
+    position: relative;
+    margin-right: 20px;
+}
+
+.icon img {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* End Sample Area */
+.branding-area {
+    height: 1000px;
+
+}
+
+.branding-wrapper {
+    height: 100%;
+    position: relative;
+
+}
+
+.branding-back {
+    background-color: #c9e3f4;
+    width: 70%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.branding-image-area {
+    width: 700px;
+    height: auto;
+    position: absolute;
+    top: 100px;
+
+}
+
+.branding-img-item {
+    height: 250px;
+
+}
+
+.branding-img-item img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.branding-heading {
+    padding: 50px 40px;
+    background-color: white;
+    position: absolute;
+    top: 60%;
+    right: 0;
+    z-index: 3;
+    padding-right: 200px;
+
+}
+
+.branding-heading h2 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.branding-heading span {
+    display: block;
+}
+
+.branding-dashed-area {
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 40%;
+    background-image: url("/assets/images/u_150.png");
+}
+
+.branding-text-area {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    left: 55%;
+    width: 40%;
+}
+
+.branding-text-area a {
+    padding: 10px 25px;
+    color: black;
+    text-transform: capitalize;
+    border: 1px solid black;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+/* End Branding */
+/* Style Part */
+.style-image-part img {
+    width: 100%;
+    height: auto;
+}
+
+.style-blank-box {
+    width: 300px;
+    height: 300px;
+    background-color: #c9e3f4;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: 0;
+}
+
+.style-blank-box-2 {
+    width: 250px;
+    height: 250px;
+    background-color: #c9e3f4;
+    position: absolute;
+
+    z-index: -1;
+    left: 30%;
+    top: 50%;
+}
+
+.style-text-part p {
+    max-width: 55%;
+
+
+}
+
+/* End Style part */
+/* Contact */
+.contact {
+    padding: 250px 0;
+    position: relative;
+}
+
+.contact-back-block {
+    height: 200px;
+    background-color: #c9e3f4;
+}
+
+.contact-box {
+    padding: 50px 50px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background-color: white;
+    width: 450px;
+    z-index: 2;
+
+}
+
+.contact-box input,
+textarea {
+    border: none;
+    border-bottom: 1px solid black;
+    padding-top: 30px;
+    outline: none;
+    width: 100%;
+}
+
+.contact-box textarea {
+    padding-top: 60px;
+
+}
+
+.contact-box input[type="submit"] {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 40px;
+    padding: 0;
+    margin-top: 15px;
+}
+
+form {
+    align-items: center;
+
+}
+
+.contact-image-block {
+    width: 450px;
+    height: 550px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    z-index: 1;
+    background-image: url("/assets/images/rgerg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* End Contact */
+/* Footer */
+footer {
+    background-color: #c9e3f4;
+    padding: 45px 0;
+    text-align: center;
+
+
+}
+
+footer p span {
+    display: block;
+}
+
+/* End Footer */
